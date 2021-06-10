@@ -1,0 +1,11 @@
+name: DerpyCore
+version: 1.0.0
+author: Derpy
+main: me.derpy.core.DerpyCore
+description: "DerpyCore!"
+api-version: 1.14
+
+commands:
+  createitem:
+    description: "Create an item from any registered plugin"
+    usage: "createitem <plugin> <item>"
