@@ -3,9 +3,13 @@ version: 1.0.0
 author: Derpy
 main: me.derpy.core.DerpyCore
 description: "DerpyCore!"
-api-version: 1.14
+api-version: 1.12
 
 commands:
   createitem:
     description: "Create an item from any registered plugin"
     usage: "createitem <plugin> <item>"
+permissions:
+  derpycore.createitem:
+    description: "Allows the user to spawn items or mobs registered by plugins"
+    default: op
